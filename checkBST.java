@@ -1,4 +1,3 @@
-package edu.nyu.cs;
 
 /*
  * check if a binary tree is a binary search tree where the left sub-tree is
