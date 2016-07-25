@@ -1,4 +1,3 @@
-package edu.nyu.cs;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -50,14 +49,14 @@ public class DirectedGraphRouteBetweenTwoNodes {
     adj[3].add(4);
     adj[5].add(6);
     adj[5].add(7);
-    System.out.println(search(adj,1,4));
-    System.out.println(search(adj,0,4));
-    System.out.println(search(adj,0,2));
-    System.out.println(search(adj,5,6));
-    System.out.println(search(adj,2,3));
-    System.out.println(search(adj,2,6));
-    System.out.println(search(adj,2,7));
-    System.out.println(search(adj,6,7));
+    System.out.println(search(adj,1,4));    //expecting true
+    System.out.println(search(adj,0,4));    //expecting true
+    System.out.println(search(adj,0,2));    //expecting true
+    System.out.println(search(adj,5,6));    //expecting true
+    System.out.println(search(adj,2,3));    //expecting false
+    System.out.println(search(adj,2,6));    //expecting false
+    System.out.println(search(adj,2,7));    //expecting false
+    System.out.println(search(adj,6,7));    //expecting false
   }
 
 }
